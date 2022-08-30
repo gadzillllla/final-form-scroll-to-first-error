@@ -13,7 +13,7 @@ const scrollToError = () => {
   }
 };
 
-export const createScrollDecorator = () => (form: FormApi) => {
+export const createScrollToErrorDecorator = () => (form: FormApi) => {
   const originalSubmit = form.submit;
 
   let state = {};
