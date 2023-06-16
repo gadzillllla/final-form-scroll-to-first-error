@@ -1,7 +1,7 @@
 {
   "name": "final-form-scroll-to-first-error",
   "description": "Decorator for Final Form & React final form. Thanks to the author of final-form-focus for the sample. =)",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "gadzillllla <kpogodin90@yandex.ru> (http://github.com/gadzillllla)",
   "license": "MIT",
   "repository": {

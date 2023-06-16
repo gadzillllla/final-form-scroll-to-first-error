@@ -9,7 +9,7 @@ const scrollToError = () => {
 
   const [firstNodeWithError] = nodesWithErrorClass;
   if (firstNodeWithError) {
-    firstNodeWithError.scrollIntoView({ behavior: 'smooth' });
+    firstNodeWithError.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
   }
 };
 
